@@ -1,0 +1,23 @@
+.navbar{
+    background-color: $white;
+    height: 20vh;
+    top: 0;
+    width: 100vw;
+    z-index: 10;
+
+    .navbar__logo{
+        color: $smoky-black;
+        font-size: 3em;
+
+        .navbar__logo-exp{
+            font-size: .25em;
+            position: relative;
+            top: -3.25em;
+            left: -2em;
+        }
+    }
+
+    .navbar__burger{
+        border: 0;
+    }
+}
