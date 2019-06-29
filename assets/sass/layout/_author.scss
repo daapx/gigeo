@@ -1,0 +1,16 @@
+.author{
+
+    .author__name{
+        font-size: $xx-large;
+        font-weight: $bold;
+    }
+    .author__image{
+        width:100px;
+        height: 100px;
+        border-radius: 100%;
+    }
+    .author__followers{
+        font-size: $large !important;
+        color: $quick-silver;
+    }
+}

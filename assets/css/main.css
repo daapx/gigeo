@@ -10038,4 +10038,37 @@ header {
   height: 20vh;
 }
 
+.author .author__name {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+.author .author__image {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.author .author__followers {
+  font-size: 1.25 rem !important;
+  color: #a6a5a8;
+}
+
+.popular-videos {
+  margin-bottom: 2rem;
+}
+.popular-videos .popular-videos__title {
+  text-align: center;
+  margin: 1em;
+}
+
+.video {
+  margin-bottom: 1rem;
+}
+.video .video__title {
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+.video .video__data {
+  color: #a6a5a8;
+}
+
 /*# sourceMappingURL=main.css.map */
