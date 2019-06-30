@@ -10025,8 +10025,31 @@ img {
   top: -3.25em;
   left: -2em;
 }
+.navbar .navbar__icons--desktop {
+  display: none;
+}
 .navbar .navbar__burger {
   border: 0;
+}
+@media screen and (min-width: 992px) {
+  .navbar {
+    height: 10vh;
+    padding: 0;
+  }
+  .navbar .navbar__logo {
+    font-size: 2em;
+  }
+  .navbar .fa-2x {
+    font-size: 1.25em;
+  }
+  .navbar .navbar__icons--desktop {
+    display: inline-block;
+    padding: 0.275rem 0;
+  }
+  .navbar .navbar__icons--desktop i {
+    font-size: 1.25rem;
+    margin: 0 0.5em;
+  }
 }
 
 header {
@@ -10036,6 +10059,12 @@ header {
   background-position-y: center;
   margin-top: 20vh;
   height: 20vh;
+}
+@media screen and (min-width: 992px) {
+  header {
+    margin-top: 10vh;
+    height: 30vh;
+  }
 }
 
 .author .author__name {
@@ -10048,8 +10077,25 @@ header {
   border-radius: 100%;
 }
 .author .author__followers {
-  font-size: 1.25 rem !important;
+  font-size: 1.25rem;
   color: #a6a5a8;
+}
+@media screen and (min-width: 992px) {
+  .author {
+    border-bottom: 1px solid #a6a5a8;
+  }
+  .author .author__image {
+    width: 60px;
+    height: 60px;
+  }
+  .author .author__name {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+  }
+  .author .author__followers {
+    font-size: 0.75rem;
+    margin-bottom: 0;
+  }
 }
 
 .popular-videos {
@@ -10058,6 +10104,12 @@ header {
 .popular-videos .popular-videos__title {
   text-align: center;
   margin: 1em;
+}
+@media screen and (min-width: 992px) {
+  .popular-videos .popular-videos__title {
+    text-align: left;
+    margin-left: 0;
+  }
 }
 
 .video {
@@ -10069,6 +10121,31 @@ header {
 }
 .video .video__data {
   color: #a6a5a8;
+}
+@media screen and (min-width: 992px) {
+  .video .video__title {
+    font-size: 1.25rem;
+  }
+  .video .video__data {
+    font-size: 1rem;
+  }
+}
+
+.btn-primary--light-blue {
+  width: 100px;
+  background-color: #92dce5;
+  border-color: #92dce5;
+  color: #ffffff;
+  border-radius: 0;
+  margin-right: 0.5rem;
+}
+
+.btn-danger--red {
+  width: 100px;
+  background-color: #ef6461;
+  border-color: #ef6461;
+  color: #ffffff;
+  border-radius: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

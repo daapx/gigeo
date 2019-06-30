@@ -17,7 +17,34 @@
         }
     }
 
+    .navbar__icons--desktop{
+        display: none;
+    }
+
     .navbar__burger{
         border: 0;
+    }
+
+    @media screen and (min-width: $desktop-breakpoint) {
+        height: 10vh;
+        padding: 0;
+
+        .navbar__logo{
+            font-size: 2em;
+        }
+
+        .fa-2x{
+            font-size: 1.25em;
+        }
+
+        .navbar__icons--desktop{
+            display: inline-block;
+            padding: .275rem 0;
+
+            i{
+                font-size: $large;
+                margin: 0 .5em;
+            }
+        }
     }
 }

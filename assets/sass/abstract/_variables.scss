@@ -1,21 +1,23 @@
 //colores
-
 $white: #ffffff;
 $smoky-black: #0c0910;
 $quick-silver: #a6a5a8;
-
+$light-blue: #92dce5;
+$red: #ef6461;
 
 //font
 $roboto: 'Roboto', sans-serif;
 
-
 //font-size
-
+$small: 0.75rem;
 $medium: 1rem;
-$large: 1.25 rem;
+$large: 1.25rem;
 $x-large: 1.5rem;
 $xx-large: 1.75rem;
 
 //font-weight
 $regular: 400;
 $bold: 700;
+
+//breakpoints
+$desktop-breakpoint: 992px;

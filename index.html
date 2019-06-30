@@ -13,9 +13,17 @@
     <nav class="navbar navbar-light bg-light position-fixed">
         <div class="container">
             <a class="navbar-brand navbar__logo" href="#">GIGEO <span class="navbar__logo-exp">ART</span></a>
-            <button class="navbar-toggler ml-auto navbar__burger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars fa-2x"></i>
-            </button>
+            <div class="navbar__icons ml-auto">
+                <div class="navbar__icons--desktop">
+                    <i class="fas fa-search fa-2x"></i>
+                    <i class="fas fa-video fa-2x"></i>
+                    <i class="fas fa-plus fa-2x"></i>
+                    <i class="far fa-bell fa-2x"></i>        
+                </div>
+                <button class="navbar-toggler navbar__burger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars fa-2x"></i>
+                </button>
+            </div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -38,15 +46,23 @@
         </div>
     </nav>
     <header></header>
-    <article class="author mx-3 my-4">
-        <div class="container">
+    <article class="author mx-3 my-3 mx-lg-0">
+        <div class="container mb-lg-3">
             <div class="row align-items-center ">
-                <div class="col-5 text-right">
-                    <img src="assets/images/profile-image.png" alt="author-image" class="author__image">
+                <div class="col-12 col-lg-3">
+                    <div class="row align-items-center justify-content-start">
+                        <div class="col-5 text-right">
+                            <img src="assets/images/profile-image.png" alt="author-image" class="author__image">
+                        </div>
+                        <div class="col-7 px-0">
+                            <h1 class="author__name">Yuki Mukami</h1>
+                            <h5 class="author__followers">30.000 seguidores</h3>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-7 px-0">
-                    <h1 class="author__name">Yuki Mukami</h1>
-                    <h5 class="author__followers">30.000 seguidores</h3>
+                <div class="col-lg-9 text-right d-none d-lg-inline">
+                    <button class="btn btn-primary--light-blue">Mensaje</button>
+                    <button class="btn btn-danger--red">Seguir</button>
                 </div>
             </div>
         </div>
@@ -55,56 +71,56 @@
         <div class="container">
             <h2 class="popular-videos__title">Videos populares</h2>
             <div class="row">
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-lg-3">
                     <article class="video">
                         <img class="video__image" src="assets/images/image-1.png" alt="video 1">
                         <h4 class="video__title">Después de la vela - Yuki Mukami</h4>
                         <h5 class="video__data">16k visitas - 1 semana atrás</h5>
                     </article>
                 </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-lg-3">
                     <article class="video">
                         <img class="video__image" src="assets/images/image-2.png" alt="video 2">
                         <h4 class="video__title">Far Away - Yuki Mukami</h4>
                         <h5 class="video__data">100k visitas - 1 mes atrás</h5>
                     </article>
                 </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-lg-3">
                     <article class="video">
                         <img class="video__image" src="assets/images/image-3.png" alt="video 3">
                         <h4 class="video__title">City - Yuki Mukami</h4>
                         <h5 class="video__data">20k visitas - 1 mes atrás</h5>
                     </article>
                 </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-lg-3">
                     <article class="video">
                         <img class="video__image" src="assets/images/image-4.png" alt="video 4">
                         <h4 class="video__title">A Yuki Tale - Yuki Mukami</h4>
                         <h5 class="video__data">1m visitas - 1 año atrás</h5>
                     </article>
                 </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-lg-3">
                     <article class="video">
                         <img class="video__image" src="assets/images/image-5.png" alt="video 5">
                         <h4 class="video__title">Mapocho - Yuki Mukami</h4>
                         <h5 class="video__data">100k visitas - 1 mes atrás</h5>
                     </article>
                 </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-lg-3">
                     <article class="video">
                         <img class="video__image" src="assets/images/image-6.png" alt="video 6">
                         <h4 class="video__title">Lucky Days - Yuki Mukami</h4>
                         <h5 class="video__data">40k visitas - 3 meses atrás</h5>
                     </article>
                 </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-lg-3">
                     <article class="video">
                         <img class="video__image" src="assets/images/image-7.png" alt="video 7">
                         <h4 class="video__title">30 days in My House</h4>
                         <h5 class="video__data">10k visitas - 4 meses atrás</h5>
                     </article>
                 </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-lg-3">
                     <article class="video">
                         <img class="video__image" src="assets/images/image-8.png" alt="video 8">
                         <h4 class="video__title">Santiago - Yuki Mukami</h4>

@@ -1,0 +1,16 @@
+.btn-primary--light-blue{
+    width: 100px;
+    background-color: $light-blue;
+    border-color: $light-blue;
+    color: $white;
+    border-radius: 0;
+    margin-right: .5rem;
+}
+
+.btn-danger--red{
+    width: 100px;
+    background-color: $red;
+    border-color: $red;
+    color: $white;
+    border-radius: 0;
+}

@@ -5,4 +5,9 @@ header{
     background-position-y: center;
     margin-top: 20vh;
     height: 20vh;
+
+    @media screen and (min-width: $desktop-breakpoint) {
+        margin-top: 10vh;
+        height: 30vh;
+    }
 }

@@ -1,5 +1,4 @@
 .video{
-
     margin-bottom: 1rem;
 
     .video__title{
@@ -9,5 +8,15 @@
 
     .video__data{
         color: $quick-silver;
+    }
+
+    @media screen and (min-width: $desktop-breakpoint) {
+        .video__title{
+            font-size: $large;
+        }
+
+        .video__data{
+            font-size: $medium;
+        }
     }
 }
